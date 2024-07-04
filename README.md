@@ -1,5 +1,7 @@
 # Пример админки склада
 
+## Как установить
+
 Установите виртуальное окружение
 
 Выполните команды
@@ -20,5 +22,6 @@ python manage.py createsuperuser
 ```commandline
 python manage.py runserver
 ```
+## Переменные окружения
 
 Aдминка сайта http://127.0.0.1:8000/admin/
