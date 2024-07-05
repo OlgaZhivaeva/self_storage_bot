@@ -43,3 +43,8 @@ class Order(models.Model):
     class Meta:
         verbose_name = 'Заказ'
         verbose_name_plural = 'Заказы'
+
+
+class Stock(models.Model):
+    name = models.CharField('название', max_length=200)
+    address = models.TextField('адрес', null=True, blank=True)

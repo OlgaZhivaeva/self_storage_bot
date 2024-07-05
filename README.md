@@ -3,11 +3,13 @@
 ## Как установить
 
 Установите виртуальное окружение
-
-Выполните команды
-
 ```commandline
 pip install -r requirements.txt
+```
+
+Сделайте миграции и примените их
+
+```commandline
 python manage.py makemigrations
 python manage.py migrate
 ```
