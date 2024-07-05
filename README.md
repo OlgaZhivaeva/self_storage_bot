@@ -17,7 +17,7 @@ python manage.py migrate
 ```commandline
 python manage.py createsuperuser
 ```
-Ваь потребуется ввести имя пользователя, ю
+Ваь потребуется ввести имя пользователя,
 электронную почту и пароль.
 
 Запуск
